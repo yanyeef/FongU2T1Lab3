@@ -39,6 +39,11 @@ public class Box
     {
         System.out.println("L = " + length + ", W = " + width + ", H = " + height);
     }
-    //
+
+    public void printVolume() {
+        System.out.println("Volume = " + volume());
+    }
+
+
 }
 
